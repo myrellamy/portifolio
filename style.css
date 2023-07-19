@@ -1,14 +1,65 @@
-body {
-    background-color: rgb(167, 106, 182);
-    color: #000000;
+
+@im@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@300&family=Poppins:ital,wght@1,500&display=swap');port url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@300&family=Poppins:ital,wght@1,500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+
 }
 
-strong {
-  color: rgb(255, 0, 191) ;  
+body {
+  height: 100vh;
+  box-sizing: border-box;
+    background-color: rgb(234, 233, 241);
+    color: #25b4db;
+}
+
+.titulo-destaque {
+  color: rgb(241, 164, 91) ;  
 }
 img{
-    height: 490px;
-    width:  555px;
+  height: 460px;
+  width: 480px;
+}
+.apresentacao { 
+  margin: 8% 10%;
+display: flex;
+align-items: center;
+justify-content:space-between ;
+
 }
 
+.apresentacao__conteudo {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.apresentacao__titulo {
+  font-size: 32px;
+  font-family:  'Poppins', sans-serif;
+  ;
+}
+
+.apresentacao__texto {
+  font-size: 22px;
+  font-family:  'Montserrat', sans-serif;
+}
+.apresentacao__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apresentacao__links__link {
+  background-color:rgb(230, 182, 241);
+  width:160px;
+  text-align: center;
+  border-radius:20px;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: rgb(119, 75, 121);
+  font-family: 'Poppins', sans-serif;
+}
   
