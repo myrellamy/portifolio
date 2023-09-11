@@ -16,5 +16,5 @@ Embora este seja apenas um projeto de aprendizado pessoal, sinto-me grata por qu
 ---
 *Este projeto é apenas um começo para mim no GitHub, mas estou ansiosa para continuar aprimorando minhas habilidades e compartilhando mais projetos no futuro!*
 
-![Foto](fotos/print.png)
+![Foto](fotos/portifoliogit.png)
 
